@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Shaurya Shekhar</title>
+  <desc id="desc">Cloud • DevOps • Automation</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#0F1A2B"/>
+    </linearGradient>
+    <radialGradient id="glowBlue" cx="950" cy="170" r="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1F6FEB" stop-opacity=".20"/>
+      <stop offset="1" stop-color="#1F6FEB" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowOrange" cx="60" cy="0" r="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF9900" stop-opacity=".05"/>
+      <stop offset="1" stop-color="#FF9900" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity=".15"/>
+      <stop offset=".55" stop-color="#fff" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="dotMask"><rect width="1200" height="320" fill="url(#fade)"/></mask>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#8B949E"/>
+    </pattern>
+    <linearGradient id="accent" x1="74" y1="0" x2="190" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF9900"/>
+      <stop offset="1" stop-color="#58A6FF"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1200" height="320" rx="20"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#dots)" opacity=".16" mask="url(#dotMask)"/>
+    <rect width="1200" height="320" fill="url(#glowBlue)"/>
+    <rect width="1200" height="320" fill="url(#glowOrange)"/>
+
+    <!-- infrastructure stack: infra → pipelines → apps -->
+    <g stroke-linecap="round">
+      <path d="M815 105V225M1085 105V225M950 173V293" stroke="#58A6FF" stroke-opacity=".35" stroke-dasharray="3 6"/>
+      <path d="M815 225L950 157L1085 225L950 293Z" fill="#0E1522" fill-opacity=".9" stroke="#8B949E" stroke-opacity=".45"/>
+      <path d="M815 165L950 97L1085 165L950 233Z" fill="#0E1626" fill-opacity=".9" stroke="#58A6FF" stroke-opacity=".6"/>
+      <path d="M815 105L950 37L1085 105L950 173Z" fill="#111A2B" fill-opacity=".92" stroke="#FF9900" stroke-opacity=".85"/>
+    </g>
+    <!-- containers on the top layer -->
+    <g stroke="#0D1117" stroke-width="1" stroke-linejoin="round">
+      <path d="M934 67L950 59L966 67L950 75Z" fill="#79C0FF"/><path d="M934 67L950 75V85L934 77Z" fill="#1F6FEB"/><path d="M950 75L966 67V77L950 85Z" fill="#1158C7"/>
+      <path d="M894 87L910 79L926 87L910 95Z" fill="#79C0FF"/><path d="M894 87L910 95V105L894 97Z" fill="#1F6FEB"/><path d="M910 95L926 87V97L910 105Z" fill="#1158C7"/>
+      <path d="M974 87L990 79L1006 87L990 95Z" fill="#79C0FF"/><path d="M974 87L990 95V105L974 97Z" fill="#1F6FEB"/><path d="M990 95L1006 87V97L990 105Z" fill="#1158C7"/>
+      <path d="M934 107L950 99L966 107L950 115Z" fill="#FFB84D"/><path d="M934 107L950 115V125L934 117Z" fill="#E68A00"/><path d="M950 115L966 107V117L950 125Z" fill="#B36B00"/>
+    </g>
+    <!-- layer labels -->
+    <g font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8B949E">
+      <path d="M1091 105H1101M1091 165H1101M1091 225H1101" stroke="#8B949E" stroke-opacity=".5"/>
+      <text x="1107" y="109">apps</text>
+      <text x="1107" y="169">pipelines</text>
+      <text x="1107" y="229">infra</text>
+    </g>
+    <circle cx="950" cy="173" r="3" fill="#FF9900"/>
+    <circle cx="950" cy="233" r="3" fill="#58A6FF"/>
+    <circle cx="950" cy="293" r="3" fill="#8B949E"/>
+
+    <!-- identity -->
+    <text x="72" y="90" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#8B949E"><tspan fill="#3FB950">➜</tspan> <tspan fill="#58A6FF">~</tspan> whoami <tspan fill="#58A6FF">█<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1.2s" repeatCount="indefinite"/></tspan></text>
+    <text x="70" y="172" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="#F0F6FC" letter-spacing="-1">Shaurya Shekhar</text>
+    <rect x="74" y="196" width="116" height="4" rx="2" fill="url(#accent)"/>
+    <text x="72" y="244" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="21" font-weight="600" fill="#C9D1D9" letter-spacing="3">CLOUD<tspan fill="#FF9900" dx="12">•</tspan><tspan dx="12">DEVOPS</tspan><tspan fill="#FF9900" dx="12">•</tspan><tspan dx="12">AUTOMATION</tspan></text>
+    <text x="72" y="281" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#7D8590">Building secure, scalable &amp; automated cloud infrastructure</text>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="319" rx="19.5" stroke="#30363D"/>
+</svg>
