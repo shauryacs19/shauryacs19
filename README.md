@@ -3,7 +3,7 @@
   <img src="./assets/banner.svg" width="100%" alt="Shaurya Shekhar — Cloud • DevOps • Automation">
 </p>
 
-<img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/278652476%3Fv%3D4&w=320&h=320&fit=cover&mask=circle&maxage=1d" align="right" width="170" alt="Shaurya Shekhar">
+<img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/278652476%3Fv%3D4%26s%3D460&w=320&h=320&fit=cover&mask=circle&maxage=1d" align="right" width="170" alt="Shaurya Shekhar">
 
 ### Hi, I'm Shaurya
 
